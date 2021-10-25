@@ -2,9 +2,9 @@
 	"name": "talisdice",
 	"title": "Talis Dice",
 	"description": "Talis dice set for Dice So Nice",
-	"version": "1.0.0",
+	"version": "1.0",
 	"library": "false",
-	"minimumCoreVersion": "0.7.9",
+	"minimumCoreVersion": "0.8.4",
 	"compatibleCoreVersion": "0.8.9",
 	"authors": [{
 			"name": "Talis",
