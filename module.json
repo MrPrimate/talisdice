@@ -22,8 +22,8 @@
 	
 	],
 	
-	"url": "IncludewebsiteURLhere if you want",
-	"manifest": "ManifestURLhere",
+	"url": "https://github.com/talissar/talisdice",
+	"manifest": "https://github.com/talissar/talisdice/blob/main/module.json",
 	"download": "DownloadURLhere",
 	"media": [
 		{
