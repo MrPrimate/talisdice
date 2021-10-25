@@ -1,0 +1,50 @@
+{
+	"name": "talisdice",
+	"title": "Talis Dice",
+	"description": "Talis dice set",
+	"version": "1.0.0",
+	"library": "false",
+	"minimumCoreVersion": "0.7.9",
+	"compatibleCoreVersion": "0.8.9",
+	"authors": [{
+			"name": "Talis",
+			"discord": ""
+		}
+	],
+	"dependencies": [
+        {
+            "name": "dice-so-nice",
+            "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
+        }
+    ],
+	"scripts":[
+		"scripts/talisdice.js"
+	
+	],
+	
+	"url": "IncludewebsiteURLhere if you want",
+	"manifest": "ManifestURLhere",
+	"download": "DownloadURLhere",
+	"media": [
+		{
+			"type": "cover",
+			"url" : "",
+			"caption": "Talis's Dice for Dice So Nice"
+		},
+		{
+			"type": "",
+			"url": "",
+			"caption": ""
+		},
+		{
+			"type": "",
+			"url": "",
+			"caption": ""
+		},
+		{
+			"type": "",
+			"url": "",
+			"caption": ""
+		}
+	]
+}
