@@ -1,28 +1,36 @@
 {
-	"name": "talisdice",
-	"title": "Talis Dice",
-	"description": "Talis dice set for Dice So Nice",
-	"version": "1.0",
-	"library": "false",
-	"minimumCoreVersion": "0.8.4",
-	"compatibleCoreVersion": "0.8.9",
-	"authors": [{
-			"name": "Talis",
-			"discord": ""
-		}
-	],
-	"dependencies": [
-        {
-            "name": "dice-so-nice",
-            "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json"
-        }
-    ],
-	"scripts":[
-		"scripts/talisdice.js"
-	
-	],
-	
-	"url": "https://github.com/talissar/talisdice",
-	"manifest": "https://github.com/talissar/talisdice/raw/main/module.json",
-	"download": "https://github.com/talissar/talisdice/raw/main/talisdice.zip"
+  "name": "talisdice",
+  "title": "Talis Dice",
+  "description": "Talis dice set for Dice So Nice",
+  "authors": [
+    {
+      "name": "Talis"
+    }
+  ],
+  "url": "https://github.com/talissar/talisdice",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [
+    "scripts/talisdice.js"
+  ],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [],
+  "system": [],
+  "dependencies": [
+    {
+      "name": "dice-so-nice",
+      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json",
+      "type": "module"
+    }
+  ],
+  "socket": false,
+  "manifest": "https://github.com/talissar/talisdice/raw/main/module.json",
+  "download": "https://github.com/talissar/talisdice/raw/main/talisdice.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": "false"
 }
