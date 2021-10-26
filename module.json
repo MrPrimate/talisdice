@@ -23,6 +23,6 @@
 	],
 	
 	"url": "https://github.com/talissar/talisdice",
-	"manifest": "https://github.com/talissar/talisdice/blob/main/module.json",
+	"manifest": "https://github.com/talissar/talisdice/raw/main/module.json",
 	"download": "https://github.com/talissar/talisdice/raw/main/talisdice.zip"
 }
