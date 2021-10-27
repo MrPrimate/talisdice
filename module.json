@@ -9,7 +9,7 @@
   ],
   "url": "https://github.com/talissar/talisdice",
   "flags": {},
-  "version": "1.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.8.4",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [
@@ -32,5 +32,24 @@
   "download": "https://github.com/talissar/talisdice/releases/download/1.0.0/talisdice.zip",
   "protected": false,
   "coreTranslation": false,
-  "library": "false"
+  "library": "false",
+  
+  "media": [
+	{
+		"type": "screenshot",
+		"url": "https://raw.githubusercontent.com/talissar/talisdice/main/pics/BlackSwirl.webp",
+		"caption": "Black Swirl"
+	},
+	{
+		"type": "screenshot",
+		"url": "https://raw.githubusercontent.com/talissar/talisdice/main/pics/PurpleBlack.webp",
+		"caption": "Purple and Black"
+	},
+	{
+		"type": "screenshot",
+		"url": "https://raw.githubusercontent.com/talissar/talisdice/main/pics/RedWhite.webp",
+		"caption": "Red and White"
+	}
+  ]
+  
 }
