@@ -9,7 +9,7 @@
   ],
   "url": "https://github.com/talissar/talisdice",
   "flags": {},
-  "version": "1.0.2",
+  "version": "1.0.4",
   "minimumCoreVersion": "0.8.4",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [
@@ -28,8 +28,8 @@
     }
   ],
   "socket": false,
-  "manifest": "https://github.com/talissar/talisdice/releases/download/1.0.3/module.json",
-  "download": "https://github.com/talissar/talisdice/releases/download/1.0.3/talisdice.zip",
+  "manifest": "https://github.com/talissar/talisdice/releases/download/1.0.4/module.json",
+  "download": "https://github.com/talissar/talisdice/releases/download/1.0.4/talisdice.zip",
   "protected": false,
   "coreTranslation": false,
   "library": "false",
