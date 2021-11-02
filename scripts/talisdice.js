@@ -122,26 +122,6 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
       },"default");
     });
 	
-	dice3d.addTexture("leaves", {
-    name: "Leaves",
-    composite: "multiply",
-    source: "modules/talisdice/graphics/dice/leaves.webp",
-	bump: "modules/talisdice/graphics/dice/leavesBump.webp"
-  })
-    .then(() => {
-      dice3d.addColorset({
-        name: 'Leaves',
-        description: "Leaves",
-        category: "Talis Dice",
-        background: "#ac2a2a",
-		foreground: '#ffffff',
-		outline: '#000000',
-        edge: '#ac3a3a',
-		texture: 'leaves',
-		material: 'wood',
-      },"default");
-    });
-	
 	dice3d.addTexture("blueorange", {
     name: "Blue Orange",
     composite: "multiply",
@@ -159,6 +139,106 @@ Hooks.on('diceSoNiceReady', (dice3d) => {
         edge: '#ffffff',
 		texture: 'blueorange',
 		material: 'metal',
+      },"default");
+    });
+	
+	dice3d.addTexture("orangeblue", {
+    name: "Orange Blue",
+    composite: "multiply",
+    source: "modules/talisdice/graphics/dice/OrangeBlue.webp",
+	bump: "modules/talisdice/graphics/dice/OrangeBlueBump.webp"
+  })
+    .then(() => {
+      dice3d.addColorset({
+        name: 'Orange Blue',
+        description: "Orange Blue",
+        category: "Talis Dice",
+        background: "#ffffff",
+		foreground: '#000000',
+		outline: '#ffffff',
+        edge: '#ffffff',
+		texture: 'orangeblue',
+		material: 'metal',
+      },"default");
+    });
+	
+	dice3d.addTexture("multi", {
+    name: "Multi",
+    composite: "multiply",
+    source: "modules/talisdice/graphics/dice/multi.webp",
+	bump: "modules/talisdice/graphics/dice/multibump.webp"
+  })
+    .then(() => {
+      dice3d.addColorset({
+        name: 'Multi',
+        description: "Multi",
+        category: "Talis Dice",
+        background: "#ffffff",
+		foreground: '#000000',
+		outline: '#ffffff',
+        edge: '#ffffff',
+		texture: 'multi',
+		material: 'chrome',
+      },"default");
+    });
+	
+	dice3d.addTexture("lightning", {
+    name: "Lightning",
+    composite: "multiply",
+    source: "modules/talisdice/graphics/dice/cracked.webp",
+	bump: "modules/talisdice/graphics/dice/cracked.webp"
+  })
+    .then(() => {
+      dice3d.addColorset({
+        name: 'Lightning',
+        description: "Lightning",
+        category: "Talis Dice",
+        background: "#8000ff",
+		foreground: '#943dff',
+		outline: '#8000ff',
+        edge: '#8000ff',
+		texture: 'lightning',
+		material: 'chrome',
+      },"default");
+    });
+	
+	dice3d.addTexture("lava", {
+    name: "Lava",
+    composite: "multiply",
+    source: "modules/talisdice/graphics/dice/cracked.webp",
+	bump: "modules/talisdice/graphics/dice/cracked.webp"
+  })
+    .then(() => {
+      dice3d.addColorset({
+        name: 'Lava',
+        description: "Lava",
+        category: "Talis Dice",
+        background: "#ff0000",
+		foreground: '#000000',
+		outline: '#ff4000',
+        edge: '#ff0000',
+		texture: 'lava',
+		material: 'chrome',
+      },"default");
+    });
+	
+	dice3d.addTexture("nature", {
+    name: "Nature",
+    composite: "multiply",
+    source: "modules/talisdice/graphics/dice/cracked.webp",
+	bump: "modules/talisdice/graphics/dice/cracked.webp"
+  })
+    .then(() => {
+      dice3d.addColorset({
+        name: 'Nature',
+        description: "Nature",
+        category: "Talis Dice",
+        background: "#098500",
+		foreground: '#5ec256',
+		outline: '#098500',
+        edge: '#098500',
+		texture: 'nature',
+		material: 'chrome',
       },"default");
     });
 });
