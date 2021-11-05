@@ -8,18 +8,12 @@
     }
   ],
   "url": "https://github.com/talissar/talisdice",
-  "flags": {},
-  "version": "1.0.4",
+  "version": "1.0.5",
   "minimumCoreVersion": "0.8.4",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [
-    "scripts/talisdice.js"
+	  "scripts/talisdice.js"
   ],
-  "esmodules": [],
-  "styles": [],
-  "languages": [],
-  "packs": [],
-  "system": [],
   "dependencies": [
     {
       "name": "dice-so-nice",
@@ -27,11 +21,8 @@
       "type": "module"
     }
   ],
-  "socket": false,
-  "manifest": "https://github.com/talissar/talisdice/releases/download/1.0.4/module.json",
-  "download": "https://github.com/talissar/talisdice/releases/download/1.0.4/talisdice.zip",
-  "protected": false,
-  "coreTranslation": false,
+  "manifest": "https://github.com/talissar/talisdice/releases/download/1.0.5/module.json",
+  "download": "https://github.com/talissar/talisdice/releases/download/1.0.5/talisdice.zip",
   "library": "false",
   
   "media": [
