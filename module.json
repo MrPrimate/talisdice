@@ -1,5 +1,5 @@
 {
-  "name": "talisdice",
+  "id": "talisdice",
   "title": "Talis Dice",
   "description": "Talis dice set for Dice So Nice",
   "authors": [
@@ -7,40 +7,48 @@
       "name": "Talis"
     }
   ],
-  "url": "https://github.com/talissar/talisdice",
+  "url": "https://github.com/mrprimate/talisdice",
   "version": "1.0.6",
-  "minimumCoreVersion": "0.8.4",
-  "compatibleCoreVersion": "0.8.9",
+  "compatibility": {
+    "minimum": "0.8.4",
+    "verified": "11"
+  },
   "scripts": [
-	  "scripts/talisdice.js"
+    "scripts/talisdice.js"
   ],
-  "dependencies": [
+  "manifest": "https://github.com/mrprimate/talisdice/releases/download/1.0.6/module.json",
+  "download": "https://github.com/mrprimate/talisdice/releases/download/1.0.6/talisdice.zip",
+  "media": [
     {
-      "name": "dice-so-nice",
-      "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json",
-      "type": "module"
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/mrprimate/talisdice/main/pics/BlackSwirl.webp",
+      "caption": "Black Swirl",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/mrprimate/talisdice/main/pics/PurpleBlack.webp",
+      "caption": "Purple and Black",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "screenshot",
+      "url": "https://raw.githubusercontent.com/mrprimate/talisdice/main/pics/RedWhite.webp",
+      "caption": "Red and White",
+      "loop": false,
+      "flags": {}
     }
   ],
-  "manifest": "https://github.com/talissar/talisdice/releases/download/1.0.6/module.json",
-  "download": "https://github.com/talissar/talisdice/releases/download/1.0.6/talisdice.zip",
-  "library": "false",
-  
-  "media": [
-	{
-		"type": "screenshot",
-		"url": "https://raw.githubusercontent.com/talissar/talisdice/main/pics/BlackSwirl.webp",
-		"caption": "Black Swirl"
-	},
-	{
-		"type": "screenshot",
-		"url": "https://raw.githubusercontent.com/talissar/talisdice/main/pics/PurpleBlack.webp",
-		"caption": "Purple and Black"
-	},
-	{
-		"type": "screenshot",
-		"url": "https://raw.githubusercontent.com/talissar/talisdice/main/pics/RedWhite.webp",
-		"caption": "Red and White"
-	}
-  ]
-  
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/master/module/module.json",
+        "compatibility": {}
+      }
+    ]
+  }
 }
